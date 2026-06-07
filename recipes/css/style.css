@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #045175;
+    font-family: cursive;
+    text-align:center;
+    margin: 10px 100px;
+    padding: 10px;
+    background-color: #9e9d9d;
+}
+
+h2 {
+    color:#755104;
+    padding: 5px;
+    margin: 10px 20px;
+}
+
+h3 {
+    color:#3b6d0b;
+    padding: 5px;
+    margin: 10px 25px;
+}
+
+p {
+    color: #16043f;
+    margin-inline-start: 50px;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+.recipe-links {
+    text-align: center;
+    margin-block-start: 30px;
+}
+
+.recipe-links li {
+    display: inline-block;
+}
+
+.recipe-links a {
+    text-decoration: none;
+    margin-inline: 100px;
+    padding-inline: 50px;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(10, 116, 80);
+    background-color: #9e9d9d;
+    border: #474646;
+
+}
+
+.list-style ul, 
+.list-style ol {
+    background-color: #6facac;
+    padding: 10px;
+    margin: 20px 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-position: inside;
+    line-height: 1.65rem;
+    
+}
+
+img {
+    margin: 20px 50px;
+    border: #045175 solid 3px;
+}
+
+.side-by-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.side-by-side img {
+  max-width: 150px;      
+  height: auto;          
+  flex-shrink: 0;        
+}
+
